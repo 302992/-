@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__
+*.egg-info
+.venv
+MUJOCO_LOG.TXT
+mujoco_menagerie
+checkpoints/
+logs
+.mujoco_playground_asset_cache/
+
+# Local credentials, assistant state and machine-specific caches
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+build/
+dist/
